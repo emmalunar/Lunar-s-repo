@@ -1,0 +1,319 @@
+*{padding: 0px;
+  margin:0px;
+  box-sizing: border-box; 
+  
+}
+
+
+
+.bg-image{padding: 18rem;
+     background: url(img/page1.jpg) ; 
+     background-size: auto;
+     background-position: 40% 100%;
+     font-family: sans-serif;
+     
+
+}
+
+.menu-bar{background-color: rgb(0, 0, 0);
+          text-align: center;
+
+}
+
+.menu-bar ul{display: inline-flex;
+             list-style: none;
+
+
+}
+
+.menu-bar ul li{width: 140px;
+                margin:15px;
+                padding: 15px;
+
+
+}
+
+.menu-bar li a{color: white;
+               text-decoration: none;
+
+
+}
+
+.active, .menu-bar ul li:hover{background-color: rgb(0, 100, 0);
+                               border-radius: 3px;
+
+}
+
+.menu-bar .fa{margin-right: 8px;
+
+}
+
+.submenu1{display: none;
+
+
+} 
+
+.menu-bar ul li:hover .submenu1{display: block;
+                       color:white;
+                       position: absolute;
+                       margin-top: 15px;
+                       margin-top: -15px;
+                       background-color: rgb(0, 100, 0);
+
+
+
+
+}
+
+.menu-bar ul li:hover .submenu1 ul{display: block;
+                                  margin:10px;
+
+}
+
+.menu-bar ul li:hover .submenu1 ul li{background: transparent;
+                                      width: 140px;
+                                      padding: 10px;
+                                      border-bottom: 1px dotted #fff ;
+                                      border-radius: 0px;
+                                      text-align: left;
+                                      
+
+
+
+}
+
+.menu-bar ul li:hover .submenu1 ul li:last-child{border-bottom:none;
+
+
+}
+
+.menu-bar ul li .submenu1 ul li a:hover{color: black;
+
+}
+
+.fa-angle-right{float:right;
+
+
+}
+
+
+.submenu2{display:none;
+
+
+}
+
+
+.hover-submenu1:hover .submenu2{display: block;
+                         position: absolute;
+                         margin-left: 100px;
+                         margin-top: -40px;
+                         background-color: rgb(0, 100, 0);
+
+
+
+}
+
+
+
+.Company-name{position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
+  }
+
+  .shada{color: pink;
+
+
+  }
+  
+  .anime{position: relative;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  display:inline-flex;
+
+  color: rgb(0, 100, 0);
+  line-height:50px ;
+  font-family: Georgia;
+  
+
+  }
+  
+  .anime:before{content: "";
+  position: absolute;
+  top:-12px;
+  left:-2px;
+  width:0px;
+  height: 0px;
+  background: transparent;
+  border: 3px solid transparent;
+  
+  
+  }
+  
+  .anime:hover:before{animation:  animate 1s linear forwards;
+  
+  }
+  
+  @keyframes animate{
+  
+  0%{height:0px;
+  width: 0px;
+  border-top-color: black;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  
+  
+  }
+  
+  50%{height:0px;
+  width: 100px;
+  border-top-color: white;
+  border-right-color: white;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  
+  
+  }
+  
+  100%{height:0px;
+  width: 100px;
+  border-top-color: black;
+  border-right-color: black;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  
+  
+  }
+  
+  }
+  
+  .anime:after{content: "";
+    position: absolute;
+    top:-12px;
+    left:-2px;
+    width:0px;
+    height: 0px;
+    background: transparent;
+    border: 2px solid transparent;
+    
+    
+    }
+    
+  
+  .anime:hover::after{animation:  animate2 1s linear forwards;
+                
+  
+  }
+  
+  @keyframes animate2{
+  
+  0%{height:0px;
+  width: 0px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: black;
+  
+  
+  }
+  
+  50%{height:80px;
+  width: 0px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: black;
+  border-bottom-color: black;
+  
+  
+  }
+  
+  100%{height:80px;
+  width: 100px;
+  border-top-color:black;
+  border-right-color: black;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  
+  
+  }
+  
+  }
+
+  .categories{margin: 150px 70px;
+              margin-left: 172px;
+              
+
+
+  }
+
+  .col-1{flex-basis: 30%;
+         max-width: 350px;
+         margin-bottom: 30px;
+         display: inline-flex;
+         
+
+
+  }
+
+  .col-1 img{width:80%;
+             
+  }
+
+  .col-2{flex-basis: 30%;
+    max-width: 350px;
+    margin-bottom: 30px;
+    display: inline-flex;
+    
+
+
+}
+
+.col-2 img{width:80%;
+        
+}
+
+.col-3{flex-basis: 30%;
+  max-width: 350px;
+  margin-bottom: 30px;
+  display: inline-flex;
+  
+
+
+}
+
+.col-3 img{width:80%;
+      
+}
+
+.col-4{margin-inline: auto;
+                
+      display: inline-flex;
+                 
+
+
+}
+
+.col-4 img{width: 50%;
+           height: 45%;
+
+}
+
+
+
+
+
+
+           
+          
+  
+
+
+
+
+

@@ -261,9 +261,9 @@
 
   }
 
-  .col-1 img{width:80%;
+  /* .col-1 img{width:80%;
              
-  }
+  } */
 
   .col-2{flex-basis: 30%;
     max-width: 350px;
@@ -274,9 +274,9 @@
 
 }
 
-.col-2 img{width:80%;
+/* .col-2 img{width:80%;
         
-}
+} */
 
 .col-3{flex-basis: 30%;
   max-width: 350px;
@@ -287,9 +287,9 @@
 
 }
 
-.col-3 img{width:80%;
+/* .col-3 img{width:80%;
       
-}
+} */
 
 .col-4{margin-inline: auto;
                 
@@ -304,11 +304,31 @@
 
 }
 
+/* makes image responsive on smaller screens */
+img{
+  max-width:100%;
+}
 
 
+/* makes images and cards responsive onn smaller screens and should be equal width */
+.row{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(min(100px, 100%), 1fr));
+  grid-gap:.5rem;
+}
+
+/* makes the rating and tile of the cards appear under the image */
+[class^="col"]{
+  display:flex;
+  flex-direction:column;
+}
 
 
-
+/* prevents the images at featured categories from becoming too small on mobile screen */
+[class^="col"]>*{
+  min-width:100px;
+  max-width:100%;
+}
            
           
   

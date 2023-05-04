@@ -1,0 +1,290 @@
+*{
+    padding:0%;
+    margin:0%;
+    font-family: verdana;
+    box-sizing: border-box;
+}
+
+.hero{ position: relative;
+       width: 100%;
+       height: 100vh;
+       background: #ffff;
+
+}
+
+:root{
+  scroll-behavior:smooth;
+}
+
+
+.Name1{margin:6px;
+       color: aliceblue;
+
+}
+
+nav{background: #240115;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 5px;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+nav ul {margin-left: 180px ;
+
+}
+
+nav ul li {display: inline-flex;
+    list-style: none;
+    margin: 10px 40px;
+    
+    
+
+}
+
+nav ul li a{ text-decoration: none;
+        color: #5ffbf1;
+
+}
+
+.Emma{margin-left: 0px;}
+
+.universe{margin-top: 10%;
+          margin-left:10%;
+          margin-bottom: 3%; 
+             
+}
+
+.empower{font-family:  lucida calligraphy;
+        font-size: 280%; 
+        font-style: bold;
+        line-height: 0dvb;
+        padding-top:0%;
+         margin-bottom:0%;
+         margin-left: 10%;
+
+
+}
+
+.message{font-style:bold;
+        font-size: 100%;
+        margin-left:10%;
+        margin-top: 3%;
+       
+
+
+}
+
+
+
+
+
+.connect{margin-left: 10%;
+         padding:10px, 15px;
+         text-decoration:none;
+         font-weight:bold;
+
+
+}
+
+.books{position: relative;
+       margin-left: 3%;
+       margin-top: 12%;
+
+}
+
+.Edu-title{margin-left: 65%;
+       top: 2%;
+        margin-bottom: 0%;
+}
+
+
+.Edu{margin-left:45% ;
+    margin-bottom: 30%;
+}
+
+.Services{background: #240115;
+          margin-left:10%;
+          margin-top:6%;
+          margin-bottom:4%;
+          padding: 7px 3px ;
+          width: 15%;
+          padding:18px;
+          text-align: center;
+          color: white;
+          border-radius: 10px;
+          font-size: 18px;          
+
+}
+
+.offer{ font-size: 20px;
+        margin-left:10px;
+
+}
+
+.your{ font-size: 50px;
+       font-weight: bold;
+       margin-left: 68%;
+
+}
+
+.concern{font-size: 25px;
+         margin-left:78%;
+         margin-top: 3px;
+
+}
+
+.Skills{background: #240115;
+    margin-left:10%;
+    margin-top: 6%;
+    margin-bottom:2%;
+    padding: 7px 3px ;
+    width: 15%;
+    padding:18px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.skillset{margin:5%;
+          font-weight:bold ;
+
+
+}
+
+.inner{font-weight: lighter;
+
+}
+
+.Experience{background: #240115;
+    margin-left:10%;
+    margin-top:6%;
+    margin-bottom:5%;
+    padding: 7px 3px ;
+    width: 35%;
+    padding:18px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    position:center;
+
+
+}
+
+.exp{margin-left:10%;
+
+}
+
+.dots{font-size: 20px;
+    font-weight: bold;
+
+}
+
+.contact{font-family:  lucida calligraphy;
+    font-size: 280%; 
+    font-style: bold;
+    padding-top:0%;
+     margin-bottom:4%;
+     margin-left: 10%;
+
+}
+
+.contact-message{font-weight: bold;
+                 margin-left:10%;
+                 font-size:18px;
+
+
+}
+
+.assurance{font-family: lucida calligraphy;
+           font-size: 70px;
+           margin-left: 10%;
+           margin-top: 3%;
+
+}
+
+footer{position: absolute;
+       bottom: 0px;
+       left :0px;
+       right :0px;
+       background:#606263;
+       height: auto;
+       width: 100vw;
+       padding-top:40px;
+       color: #240115;
+}
+
+
+.footer-content{display:flex;
+                align-items:center;
+                justify-content:center;
+                flex-direction: column;
+                text-align: center;
+
+}
+
+
+.footer-content h3{
+                   font-size: 1.8rem;
+                   font-weight: 200px;
+                   text-transform:capitalize;
+                   line-height:3rem; 
+
+}
+
+footer content p{max-width: 500px;
+                 margin: 10px auto;
+                 line-height: 28px;
+                 font-size: 14px;
+}
+
+.socials{list-style:none;
+          display: flex;
+          align-items:Center ;
+          justify-content:center ;
+          margin: 1rem, 0, 3rem;
+
+
+}
+
+.socials li{margin:0px, 10px
+
+}
+
+
+
+
+.socials a{text-decoration: none;
+         color: aqua;
+}
+
+.socials a i{font-size: 20px;
+             padding: 4px 10px;
+
+}
+
+.socials a:hover{
+    color: aqua;
+}
+
+
+.footer-bottom p{font-size: 14px;
+                 word-spacing:2px;
+                 text-transform: capitalize;
+
+
+
+}
+
+.copyright{background: #240115;
+                         color: #5ffbf1;
+                text-transform: uppercase;
+                opacity:-4;
+                font-weight:200;
+                
+
+}
